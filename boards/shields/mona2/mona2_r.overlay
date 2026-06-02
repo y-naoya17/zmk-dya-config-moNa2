@@ -72,6 +72,7 @@
 
     input-processors =
         <&mouse_runtime_input_processor>,
+        <&zip_mouse_gesture>,
         <&zip_temp_layer 5 10000>;
 
     scroller {
@@ -97,4 +98,11 @@
     39 // layerKey2
     40 // layerKey1
   >;
+};
+
+&zip_mouse_gesture {
+  stroke-size = <150>;
+  idle-timeout-ms = <300>;
+  gesture-cooldown-ms = <500>;
+  movement-threshold = <0>;
 };
