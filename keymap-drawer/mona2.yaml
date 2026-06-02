@@ -183,7 +183,7 @@ layers:
   - {t: BT, h: '2'}
   - {t: BT, h: '3'}
   - {t: BT, h: '4'}
-  - {t: ▽, type: trans}
+  - '&studio_unlock'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -228,7 +228,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '&mkp MB3'
-  - '&mkp MB2'
+  - '&mouse_gesture_mkp 0 MB2'
   - '&mkp MB1'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
