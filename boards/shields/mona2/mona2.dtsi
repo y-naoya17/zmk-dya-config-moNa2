@@ -4,6 +4,10 @@
 #include <mouse-gesture.dtsi>
 #include <physical_layouts.dtsi>
 
+&mouse_gesture_mkp {
+    tapping-term-ms = <200>;
+};
+
 / {
     chosen {
         zmk,physical-layout = &physical_layout0;
