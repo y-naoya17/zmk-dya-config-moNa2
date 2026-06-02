@@ -105,4 +105,9 @@
   idle-timeout-ms = <300>;
   gesture-cooldown-ms = <500>;
   movement-threshold = <0>;
+
+  placeholder {
+    pattern = <GESTURE_UP GESTURE_RIGHT>;
+    bindings = <&none>;
+  };
 };
