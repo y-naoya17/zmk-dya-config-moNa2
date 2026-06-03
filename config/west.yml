@@ -35,6 +35,7 @@ manifest:
       revision: zmk-v0.3.0.0
     - name: zmk-mouse-gesture
       remote: y-naoya17
+      repo-path: zmk-mouse-gesture-studio
       revision: main
     - name: zmk-pmw3610-driver
       remote: badjeff
